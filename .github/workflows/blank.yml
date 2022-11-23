@@ -26,7 +26,9 @@ jobs:
       - uses: actions/checkout@v3
       
       - name: echo check
-        run: name=sam
+        run: |
+          name=sam
+          echo Hello $name
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
