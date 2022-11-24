@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - uses: ./
+      - uses: toko-bifrost/ms-teams-deploy-card@3.1.2
         if: always()
         with:
           github-token: ${{ github.token }}
