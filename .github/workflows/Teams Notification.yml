@@ -10,7 +10,7 @@ jobs:
       - uses: actions/checkout@v2
         
       - name: Checking
-        run: Docker  
+        run: ls  
 
       - uses: toko-bifrost/ms-teams-deploy-card@3.1.2
         if: always()
